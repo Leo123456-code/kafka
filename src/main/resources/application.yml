@@ -1,0 +1,10 @@
+server:
+  port: 8090
+
+kafka:
+  bootstrap_servers: "192.168.1.128:9092"
+  acks_config: "all"
+  topic:
+    order: xzc
+  group:
+    id: group-order
